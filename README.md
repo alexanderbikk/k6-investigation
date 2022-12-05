@@ -3,11 +3,13 @@
 1. Install k6 open source locally for your OS using this [link](https://k6.io/docs/get-started/installation/ "ks Download")
 >For Windows `choco install k6`
 
-2. To run sript the following command should be used. `k6 run --config options.json script.js`<br />
+2. To run sript the following command should be used. `k6 run --config options.json --out csv=test_results.csv script.js`<br />
 
-Options can be update in options.json.<br />
+Options can be update in `options.json`.<br />
 
 Initial setup:<br />
+
+3. In the end of test the result (in addition to console summary) will be exported to  `test_results.csv` file. <br />
 
 # Concepts
 
@@ -33,3 +35,9 @@ Options can be passed in CLI directly
 > For example `k6 run --config options.json script.js` (see options.json in source code)<br />
 
 [All options](https://k6.io/docs/using-k6/k6-options/reference/ "k6 Options") can be found here
+
+# Reports
+The End-of-test summary can be [customized in script](https://k6.io/docs/results-output/end-of-test/custom-summary/).<br />
+
+The results could be expoted in CSV, Json files. Also [streaming to cloud supported](https://k6.io/docs/results-output/real-time/).<br />
+[More information about possible results](https://k6.io/docs/results-output/end-of-test/)
