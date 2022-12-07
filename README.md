@@ -76,6 +76,9 @@ k6 run --vus 10 --duration 15s script.js
 
 3. The results will be available in `test_results_details.json` (in addition to console output) <br />
 
+
+<img src="https://user-images.githubusercontent.com/16937972/206269390-7031cfa0-1408-4198-841a-e06d845426b6.png" width="600" height="600">
+
 # Concepts
 
 ## Users 
