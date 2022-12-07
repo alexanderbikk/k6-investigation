@@ -1,0 +1,34 @@
+{
+    "systemTags": [
+        "vu",
+        "iter",
+        "scenario",
+        "proto",
+        "subproto",
+        "status",
+        "method",
+        "url",
+        "name",
+        "group",
+        "check",
+        "error",
+        "error_code",
+        "tls_version",
+        "service",
+        "expected_response"
+    ],
+    "scenarios": {
+        "simple-iterations": {
+            "executor": "per-vu-iterations",
+            "vus": 10,
+            "iterations": 1,
+            "maxDuration": "20s"
+        }
+    },
+    "thresholds": {
+        "http_req_duration": [
+            "avg<1000",
+            "p(95)<1500"
+        ]
+    }
+}

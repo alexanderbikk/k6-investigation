@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Ed",
+        "sex": "M",
+        "date_of_birth": "1995-02-27",
+        "age": 27
+    },
+    {
+        "name": "Lyle the Crocodile",
+        "sex": "M",
+        "date_of_birth": "1985-03-03",
+        "age": 37
+    },
+    {
+        "name": "Solomon",
+        "sex": "M",
+        "date_of_birth": "1993-12-25",
+        "age": 28
+    },
+    {
+        "name": "The gharial",
+        "sex": "F",
+        "date_of_birth": "2004-06-28",
+        "age": 18
+    },
+    {
+        "name": "Sang Buaya",
+        "sex": "F",
+        "date_of_birth": "2006-01-28",
+        "age": 16
+    }
+]
